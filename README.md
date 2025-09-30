@@ -17,7 +17,9 @@ IPS : It works for blocking incidents with rules and signatures.
 The UFW stands for Uncomplicated FireWall.It meas friendly interface makes user easier.It kali linux firewall to install run command.
 
           sudo apt install gufw -y
-          
+
+<img width="1880" height="815" alt="Nessus scanners-output-img" src="https://github.com/CharanCSE02/Task-4-Firewall-testing/blob/main/Screenshot 2025-09-28 221151.png" />
+
 # Telnet
 The telnet is used remote connections and interaction.It means we connect to ip address,Domain etc.In port of 23.
 
@@ -27,6 +29,7 @@ Example:It gather some infornation about website we given.
 
 It gather open information about website of example.com with ipaddress and code of website present.
 
+<img width="1580" height="615" alt="Nessus scanners-output-img" src="https://github.com/CharanCSE02/Task-4-Firewall-testing/blob/main/Screenshot 2025-09-28 195708.png" />
 
 # SSH
 The ssh is used operating remotly for other ip address(or) system.It means we conneted with your system by ssh.
@@ -41,12 +44,18 @@ To connect remotly we need know ip address of system.To connection we need run c
 
         ssh username@ipadrs
 
+<img width="1580" height="615" alt="Nessus scanners-output-img" src="https://github.com/CharanCSE02/Task-4-Firewall-testing/blob/main/Screenshot 2025-09-28 220834.png" />
+
 # Rules adding process
 Rules is only process to control the traffic.
+
+<img width="1580" height="615" alt="Nessus scanners-output-img" src="https://github.com/CharanCSE02/Task-4-Firewall-testing/blob/main/Screenshot 2025-09-28 221601.png" />
 
 
 # Rules to block telnet 
 To block the telnet we need port number 23.Next click of add rules name is telnet then select deny(or)reject with in/out traffic is deny.
+
+In above figure 1 already rule is present.
 
 
 # Rule to allow ssh
